@@ -19,52 +19,34 @@
   </head>
   <body>
     <header>
-        <div id="headerTop">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-3"><div id="logo"><img src="images/directreclameLogo.png" title="" alt="" /><h1><stong>Flyer</stong>plaza</h1></div></div>
-                    <div class="col-xs-4">
-                        <div class="input-group">
-                          <input type="text" class="form-control" placeholder="Zoeke naar ...">
-                          <span class="input-group-btn"> <!-- btn via css border links verwijderen -->
-                            <button class="btn btn-default" type="button"><!-- Vergrootglas icon toevoegen --></button>
-                          </span>
-                        </div><!-- /input-group -->
-                    </div>
-                    <div class="col-xs-3">
-                        <div id="winkelwagen">
-                            <div class="box">
-                                <i class="glyphicon glyphicon-shopping-cart"></i> 0 producten <span class="pull-right">€ 0,00</span>
-                            </div>
-                        </div> <!-- End winkelwagen -->
-                    </div>
-                    <div class="col-xs-2">
-                        <div id="account">
-                            <div class="box">
-                                <i class="glyphicon glyphicon-user"></i> <span>Inloggen / registreren</span>
-                             </div>
-                        </div> <!-- End account -->
-                    </div> 
-                </div> <!-- End row -->
-            </div> <!-- End container -->
-        </div> <!-- End headerTop -->
         <nav class="navbar navbar-default">
-<!--          <div class="container-fluid">-->
               <div class="container">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
-                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <button type="button" class="navbar-toggle collapsed pull-left" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                   </button>
-                  <a class="navbar-brand hidden" href="#">Brand</a>
+                    
+                    <div id="logo"><a href="#"><img src="images/directreclameLogoMobiel.png" class="img-responsive pull-left" title="" alt="" /> <h1 class="hidden-xs pull-left"><span>Flyer</span>plaza</h1></a></div>
+                    <div class="col-xs-6 col-sm-4">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Zoeke naar ...">
+                        <span class="input-group-btn"> <!-- btn via css border links verwijderen -->
+                            <button class="btn btn-default" type="button"><i class="glyphicon glyphicon-search"></i></button>
+                        </span>
+                    </div><!-- /input-group -->
+                    </div>
+                        <button class="btn btn-default"><a href="#"><i class="glyphicon glyphicon-shopping-cart"><span class="hidden-xs"> 0 producten € 0,00</span></i></a></button>
+                        <button class="btn btn-default"><a href="#"><i class="glyphicon glyphicon-user"><span class="hidden-xs"> Inloggen / registreren</span></i></a></button>   
+                  </div>
                 </div>
-
+                <div class="container">
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                  <ul class="nav navbar-nav">
+                  <ul class="nav navbar-nav visible-xs">
                     <li><a href="#">Standaard flyers</a></li>
                     <li><a href="#">Vierkante flyers</a></li>
                     <li><a href="#">Ronde flyers</a></li>
@@ -73,9 +55,20 @@
                     <li><a href="#">Spoed flyers</a></li>
                   </ul>
                 </div><!-- /.navbar-collapse -->
-              </div>
-          <!-- /.container-fluid -->
+                </div>
         </nav>
+        <div id="navDesk" class="hidden-xs">
+            <div class="container">
+            <ul class="nav navbar-nav">
+                <li><a href="#">Standaard flyers</a></li>
+                <li><a href="#">Vierkante flyers</a></li>
+                <li><a href="#">Ronde flyers</a></li>
+                <li><a href="#">Speciale flyers</a></li>
+                <li><a href="#">Luxe flyers</a></li>
+                <li><a href="#">Spoed flyers</a></li>
+            </ul>
+            </div>
+        </div> <!-- End navDesk -->
         
         
         
