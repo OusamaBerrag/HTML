@@ -100,10 +100,10 @@
 
 #navDesk {
     background-color: #f2f2f2;
+    min-height: 50px;
 }
 
 #navDesk a {
     color: #555555;
     font-weight: bold;
-    padding: 10px 25px;
 }
