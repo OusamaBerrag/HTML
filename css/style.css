@@ -107,3 +107,16 @@
     color: #555555;
     font-weight: bold;
 }
+
+#contentTop {
+    font-weight: 600;
+}
+
+#contentTop li {
+    margin: 30px 17px 0;
+}
+
+.blueO {
+    color: #54b0c7;
+    font-weight: bold;
+}
